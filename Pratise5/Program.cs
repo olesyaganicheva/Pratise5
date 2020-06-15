@@ -47,7 +47,7 @@ namespace Практика_Задание_5_692з
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if ((j >= 1) && (n - i + 1 <= j) && (mas[i, j] > max))
+                    if ((j >= 1) && (n - i <= j) && (mas[i, j] > max))
                     {
                         max = mas[i, j];
                         index_i = i;
